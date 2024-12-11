@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Account</title>
+</head>
+<style>
+     .container{
+        display: block;
+        border: 2px solid black;
+        margin:30px 400px;
+        height: 600px;
+    }
+    #box1{
+        text-align: center;
+        margin-top: 20px;
+    } 
+    #box2{
+        text-align: center;
+    }
+    #box3{
+        text-align: center;
+        margin-top: -20px;
+    }
+    #box4{
+        text-align: center;
+        margin-top: 50px;
+    }
+    img{
+        width: 400px;
+    }
+    #box5{
+        text-align: center;
+        margin-top: 50px;
+    }
+    button{
+        display: inline;
+        background-color: blue;
+        border: 2px solid blue;
+        border-radius: 5px;
+        width: 70px;
+        height: 30px;
+        margin-left: 350px;
+    } 
+    a{
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+    button:hover{
+        cursor:pointer;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+            <img src="/Logo Images/Google logo.png" alt="">
+        </div>
+        <div class="box" id="box2">
+            <h1>Verified Account</h1>
+        </div>
+        <div class="box" id="box3">
+            <h4>Your Account is Verified</h4>
+        </div>
+        <div class="box" id="box4">
+            <img src="data:image/png;base64,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" alt="">
+        </div>
+        <div class="box" id="box5">
+            <h1>THANK YOU</h1>
+        </div>
+        <div class="box" id="box6">
+            <button><a href="https://google.com">Finish</a></button>
+        </div>
+    </div>
+</body>
+</html>
